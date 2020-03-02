@@ -17,5 +17,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    private fun done(view: View){
 
+    }
 }
