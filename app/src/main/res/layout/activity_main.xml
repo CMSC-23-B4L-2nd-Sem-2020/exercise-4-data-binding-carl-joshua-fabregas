@@ -7,5 +7,190 @@
         android:orientation="vertical"
         android:paddingStart="16dp"
         android:paddingEnd="16dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/Hello_Text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_uwu"
+                    android:text="Hello!"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_uwu2"
+                    android:text="Name" />
+
+                <EditText
+                    android:id="@+id/name_entry"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Enter Name"
+                    android:inputType="textPersonName"
+                    android:padding="@dimen/padding_uwu2" />
+
+                <TextView
+                    android:id="@+id/nickname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_uwu2"
+                    android:text="Nickname" />
+
+                <EditText
+                    android:id="@+id/nickname_entry"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Enter Nickname"
+                    android:inputType="textPersonName"
+                    android:padding="@dimen/padding_uwu2" />
+
+                <TextView
+                    android:id="@+id/age"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_uwu2"
+                    android:text="Age" />
+
+                <EditText
+                    android:id="@+id/age_entry"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Enter Age"
+                    android:inputType="textPersonName"
+                    android:padding="@dimen/padding_uwu2" />
+
+                <TextView
+                    android:id="@+id/biirthday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_uwu2"
+                    android:text="When is your birthday?" />
+
+                <EditText
+                    android:id="@+id/birthday_entry"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Enter Birthday"
+                    android:inputType="textPersonName"
+                    android:padding="@dimen/padding_uwu2" />
+
+                <TextView
+                    android:id="@+id/phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_uwu2"
+                    android:text="Phone Number" />
+
+                <EditText
+                    android:id="@+id/phone_entry"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Enter Phone Number"
+                    android:inputType="textPersonName"
+                    android:padding="@dimen/padding_uwu2" />
+
+                <TextView
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_uwu2"
+                    android:text="What is your email address?" />
+
+                <EditText
+                    android:id="@+id/email_entry"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Enter Email Address"
+                    android:inputType="textPersonName"
+                    android:padding="@dimen/padding_uwu2" />
+
+                <TextView
+                    android:id="@+id/course"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_uwu2"
+                    android:text="What is your course?" />
+
+                <EditText
+                    android:id="@+id/course_entry"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Enter Course"
+                    android:inputType="textPersonName"
+                    android:padding="@dimen/padding_uwu2" />
+
+                <TextView
+                    android:id="@+id/dream"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_uwu2"
+                    android:text="What is your ultimate dream" />
+
+                <EditText
+                    android:id="@+id/dream_entry"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Enter Dream"
+                    android:inputType="textPersonName"
+                    android:padding="@dimen/padding_uwu2" />
+
+                <TextView
+                    android:id="@+id/crush"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_uwu2"
+                    android:text="Who is your crush?" />
+
+                <EditText
+                    android:id="@+id/crush_entry"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Enter Name of Crush"
+                    android:inputType="textPersonName"
+                    android:padding="@dimen/padding_uwu2" />
+
+                <TextView
+                    android:id="@+id/message"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_uwu2"
+                    android:text="What is your message for me?" />
+
+                <EditText
+                    android:id="@+id/name_entry9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:padding="@dimen/padding_uwu2" />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="DONE" />
+            </LinearLayout>
+        </ScrollView>
+
     </LinearLayout>
 </layout>
