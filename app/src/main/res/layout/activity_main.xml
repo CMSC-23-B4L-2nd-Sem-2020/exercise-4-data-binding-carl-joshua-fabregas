@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="SlumBook"
+            type="com.example.fabregas_exer4.SlumBook" />
+    </data>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -22,7 +27,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="@dimen/padding_uwu"
-                    android:text="Hello!"
+                    android:text="@string/hello"
                     android:textAlignment="center" />
 
                 <TextView
@@ -30,7 +35,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="@dimen/padding_uwu2"
-                    android:text="Name" />
+                    android:text="@={SlumBook.name}" />
 
                 <EditText
                     android:id="@+id/name_entry"
@@ -46,7 +51,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="@dimen/padding_uwu2"
-                    android:text="Nickname" />
+                    android:text="@={SlumBook.nickname}"
+                    />
 
                 <EditText
                     android:id="@+id/nickname_entry"
@@ -62,7 +68,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="@dimen/padding_uwu2"
-                    android:text="Age" />
+                    android:text="@={SlumBook.age}" />
 
                 <EditText
                     android:id="@+id/age_entry"
@@ -78,14 +84,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="@dimen/padding_uwu2"
-                    android:text="When is your birthday?" />
+                    android:text="@string/when_is_your_birthday" />
 
                 <EditText
                     android:id="@+id/birthday_entry"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:hint="Enter Birthday"
+                    android:hint="@string/enter_birthday"
                     android:inputType="textPersonName"
                     android:padding="@dimen/padding_uwu2" />
 
@@ -94,14 +100,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="@dimen/padding_uwu2"
-                    android:text="Phone Number" />
+                    android:text="@string/phone_number" />
 
                 <EditText
                     android:id="@+id/phone_entry"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:hint="Enter Phone Number"
+                    android:hint="@string/enter_phone_number"
                     android:inputType="textPersonName"
                     android:padding="@dimen/padding_uwu2" />
 
@@ -110,14 +116,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="@dimen/padding_uwu2"
-                    android:text="What is your email address?" />
+                    android:text="@string/what_is_your_email_address" />
 
                 <EditText
                     android:id="@+id/email_entry"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:hint="Enter Email Address"
+                    android:hint="@string/enter_email_address"
                     android:inputType="textPersonName"
                     android:padding="@dimen/padding_uwu2" />
 
@@ -126,14 +132,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="@dimen/padding_uwu2"
-                    android:text="What is your course?" />
+                    android:text="@string/what_is_your_course" />
 
                 <EditText
                     android:id="@+id/course_entry"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:hint="Enter Course"
+                    android:hint="@string/enter_course"
                     android:inputType="textPersonName"
                     android:padding="@dimen/padding_uwu2" />
 
@@ -142,14 +148,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="@dimen/padding_uwu2"
-                    android:text="What is your ultimate dream" />
+                    android:text="@string/what_is_your_ultimate_dream" />
 
                 <EditText
                     android:id="@+id/dream_entry"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:hint="Enter Dream"
+                    android:hint="@string/enter_dream"
                     android:inputType="textPersonName"
                     android:padding="@dimen/padding_uwu2" />
 
@@ -158,14 +164,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="@dimen/padding_uwu2"
-                    android:text="Who is your crush?" />
+                    android:text="@string/who_is_your_crush" />
 
                 <EditText
                     android:id="@+id/crush_entry"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:hint="Enter Name of Crush"
+                    android:hint="@string/enter_name_of_crush"
                     android:inputType="textPersonName"
                     android:padding="@dimen/padding_uwu2" />
 
@@ -174,7 +180,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="@dimen/padding_uwu2"
-                    android:text="What is your message for me?" />
+                    android:text="@string/what_is_your_message_for_me" />
 
                 <EditText
                     android:id="@+id/name_entry9"
@@ -188,7 +194,7 @@
                     android:id="@+id/button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="DONE" />
+                    android:text="@string/done" />
             </LinearLayout>
         </ScrollView>
 

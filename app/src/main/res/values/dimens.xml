@@ -2,4 +2,6 @@
 <resources>
     <dimen name="padding_uwu">16dp</dimen>
     <dimen name="padding_uwu2">8dp</dimen>
+    <dimen name="font_uwu2">24sp</dimen>
+
 </resources>

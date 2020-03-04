@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Fabregas_Exer4</string>
+    <string name="name">Name</string>
+    <string name="done">DONE</string>
+    <string name="what_is_your_message_for_me">What is your message for me?</string>
+    <string name="enter_name_of_crush">Enter Name of Crush</string>
+    <string name="who_is_your_crush">Who is your crush?</string>
+    <string name="enter_dream">Enter Dream</string>
+    <string name="what_is_your_ultimate_dream">What is your ultimate dream</string>
+    <string name="enter_course">Enter Course</string>
+    <string name="what_is_your_course">What is your course?</string>
+    <string name="enter_email_address">Enter Email Address</string>
+    <string name="what_is_your_email_address">What is your email address?</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="when_is_your_birthday">When is your birthday?</string>
+    <string name="enter_birthday">Enter Birthday</string>
+    <string name="hello">Hello!</string>
+    <string name="message">Thank you for answering</string>
 </resources>
